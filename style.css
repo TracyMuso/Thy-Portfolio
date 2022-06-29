@@ -1,0 +1,42 @@
+body {
+  width: 100%;
+  background: #191765;
+  font-family: "Roboto", serif;
+  font-style: normal;
+}
+
+#toolbar {
+  position: absolute;
+  height: ;
+}
+
+.bi-list {
+  position: absolute;
+  top: 20px;
+  right: 90%;
+  font-size: 35px;
+  padding: 5px;
+}
+
+#logo {
+  position: absolute;
+  top: 20px;
+  left: 90%;
+  width: 81px;
+  height: 16px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+}
