@@ -42,6 +42,14 @@ ul {
   align-items: center;
 }
 
+#about {
+  background: url(images/Ellipse1.svg) left top no-repeat;
+}
+
+#ab {
+  background: url(images/Ellipse2.svg) right top no-repeat;
+}
+
 #intro {
   display: flex;
   flex-direction: column;
@@ -53,28 +61,6 @@ ul {
   gap: 5px;
   margin-right: 10%;
   margin-left: 10%;
-}
-
-#one {
-  position: absolute;
-  width: 160px;
-  height: 140px;
-  right: 90%;
-  top: 100px;
-  background: #edecff;
-  filter: blur(30px);
-  z-index: -10;
-}
-
-#two {
-  position: absolute;
-  width: 68px;
-  height: 68px;
-  left: 99%;
-  top: 665px;
-  background: #edecff;
-  filter: blur(30px);
-  z-index: -10;
 }
 
 h1 {
@@ -209,13 +195,9 @@ h1 {
 
 .work {
   font-size: 20px;
-  line-height: 32px;
-  line-height: 137%;
   text-align: center;
-  align-content: center;
   vertical-align: top;
   color: #a2a3ae;
-  display: flex;
   width: 77px;
   height: 40px;
   margin: auto;
