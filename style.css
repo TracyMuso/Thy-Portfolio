@@ -5,32 +5,29 @@ body {
   font-style: normal;
 }
 
-#toolbar {
-  position: absolute;
-  height: ;
-}
-
 .bi-list {
   position: absolute;
   top: 20px;
-  right: 90%;
+  right: 0;
   font-size: 35px;
-  padding: 5px;
+  padding: 5px 10px;
+  color: #fff;
+  margin-right: 15px;
 }
 
 #logo {
   position: absolute;
-  top: 20px;
-  left: 90%;
+  top: 10px;
+  left: 0;
   width: 81px;
   height: 16px;
   font-weight: 500;
   font-size: 18px;
-  line-height: 16px;
   letter-spacing: 0.03em;
   color: #fff;
   border-radius: 5px;
-  padding: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
 }
 
 li {
@@ -39,4 +36,60 @@ li {
 
 ul {
   list-style-type: none;
+}
+
+#about {
+  justify-content: center;
+}
+
+#intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 520.15px;
+  margin-top: 100px;
+  width: 70%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+  border: solid 1px black;
+}
+
+#one {
+  position: absolute;
+  width: 160px;
+  height: 160px;
+  left: -106px;
+  top: 100px;
+  background: #edecff;
+  filter: blur(50px);
+}
+
+h1 {
+  width: auto;
+  height: 55px;
+  font-weight: 700;
+  font-size: 48px;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
+  text-align: center;
+}
+
+#job {
+  height: 87px;
+  font-weight: 500;
+  font-size: 32px;
+  color: #edecff;
+  text-align: center;
+}
+
+#role {
+  width: 327px;
+  height: 170px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #c8c8d4;
+  text-align: center;
 }
