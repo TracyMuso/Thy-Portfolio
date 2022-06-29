@@ -39,33 +39,42 @@ ul {
 }
 
 #about {
-  justify-content: center;
+  align-items: center;
 }
 
 #intro {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  height: 520.15px;
   margin-top: 100px;
   margin-bottom: 20px;
-  width: 70%;
+  width: 80%;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
   flex-wrap: wrap;
-  z-index: 2;
+  gap: 5px;
+  margin-right: 10%;
+  margin-left: 10%;
 }
 
 #one {
   position: absolute;
   width: 160px;
-  height: 160px;
-  left: -106px;
+  height: 140px;
+  right: 90%;
   top: 100px;
   background: #edecff;
-  filter: blur(50px);
-  z-index: -1;
+  filter: blur(30px);
+  z-index: -10;
+}
+
+#two {
+  position: absolute;
+  width: 68px;
+  height: 68px;
+  left: 99%;
+  top: 665px;
+  background: #edecff;
+  filter: blur(30px);
+  z-index: -10;
 }
 
 h1 {
@@ -94,12 +103,14 @@ h1 {
   line-height: 28px;
   color: #c8c8d4;
   text-align: center;
+  align-self: center;
+  margin-top: -30px;
 }
 
 #education {
   display: flex;
   gap: 2%;
-  width: 73%;
+  width: 80%;
   flex-wrap: wrap;
   flex-direction: row;
   border-top: 1px solid #646369;
@@ -158,4 +169,55 @@ h1 {
   height: 224px;
   line-height: 1.5em;
   align-items: flex-start;
+}
+
+#socialmedia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  width: 200px;
+  height: 104px;
+  text-align: center;
+  justify-content: center;
+  margin: 35px auto;
+}
+
+.sm-icons {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  height: 50px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: auto;
+  padding-left: 15px;
+}
+
+.icons {
+  align-items: center;
+  width: 20px;
+  height: 22px;
+}
+
+.iconM {
+  align-items: center;
+  width: 20px;
+  height: 17px;
+}
+
+.work {
+  font-size: 20px;
+  line-height: 32px;
+  line-height: 137%;
+  text-align: center;
+  align-content: center;
+  vertical-align: top;
+  color: #a2a3ae;
+  display: flex;
+  width: 77px;
+  height: 40px;
+  margin: auto;
+  text-decoration: none;
 }
