@@ -1,8 +1,8 @@
 # Thy Portfolio
->This is practice on how to create my professional portfolio 
+
+> This is practice on how to create my professional portfolio
 
 ![](https://img.shields.io/badge/Microverse-blueviolet.
-
 
 ## Built With
 
@@ -11,8 +11,7 @@
 
 ## Live Demo (if available)
 
-http://127.0.0.1:5503/index.html
-
+http://127.0.0.1:5500/
 
 ## Authors
 
@@ -21,7 +20,6 @@ http://127.0.0.1:5503/index.html
 - GitHub: [@githubhandle](https://github.com/elfin-git)
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/tracy-musongole)
-
 
 ## 🤝 Contributing
 
