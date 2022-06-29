@@ -48,12 +48,13 @@ ul {
   align-items: center;
   height: 520.15px;
   margin-top: 100px;
+  margin-bottom: 20px;
   width: 70%;
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
   flex-wrap: wrap;
-  border: solid 1px black;
+  z-index: 2;
 }
 
 #one {
@@ -64,6 +65,7 @@ ul {
   top: 100px;
   background: #edecff;
   filter: blur(50px);
+  z-index: -1;
 }
 
 h1 {
@@ -92,4 +94,68 @@ h1 {
   line-height: 28px;
   color: #c8c8d4;
   text-align: center;
+}
+
+#education {
+  display: flex;
+  gap: 2%;
+  width: 73%;
+  flex-wrap: wrap;
+  flex-direction: row;
+  border-top: 1px solid #646369;
+  border-bottom: 1px solid #646369;
+  margin: auto;
+  padding: 5px 15px;
+}
+
+.title {
+  width: 30%;
+  height: 16px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: #9490ff;
+  clear: none;
+}
+
+.par {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  align-items: center;
+  color: #f5f5ff;
+}
+
+#langs {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 167.33px;
+  line-height: 1.5em;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+#fw {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 30%;
+  height: 200.15px;
+  line-height: 1.5em;
+  align-items: flex-start;
+  text-align: right;
+}
+
+#skills {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 122px;
+  height: 224px;
+  line-height: 1.5em;
+  align-items: flex-start;
 }
