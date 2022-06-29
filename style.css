@@ -39,11 +39,8 @@ ul {
 }
 
 #about {
-  align-items: center;
-}
-
-#about {
   background: url(images/Ellipse1.svg) left top no-repeat;
+  align-items: center;
 }
 
 #ab {
