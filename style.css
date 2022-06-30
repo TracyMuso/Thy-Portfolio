@@ -224,7 +224,6 @@ h1 {
 }
 
 #work-grid-one {
-  width: 100%;
   *background: url(images/Ellipse-4.svg) left center no-repeat;
 }
 
@@ -243,7 +242,7 @@ h1 {
 .project-grid {
   display: grid;
   gap: 24px;
-  width: 85%;
+  width: 330px;
   height: 735px;
   grid-template-rows: 235px 469px;
   margin-bottom: 50px;
@@ -255,7 +254,7 @@ h1 {
 
 .project-img {
   grid-row: 1;
-  width: 320px;
+  width: 327px;
   height: 230px;
 }
 
@@ -277,7 +276,7 @@ h1 {
 }
 
 .project-intro {
-  width: 95%;
+  width: 330px;
   height: 204px;
   font-family: "Inter", sans-serif;
   font-weight: 400;
@@ -291,13 +290,13 @@ h1 {
   flex-direction: row;
   align-items: center;
   margin-left: 0;
-  margin-right: 15%;
   padding-left: 0;
   gap: 8px;
   width: 85%;
   height: 40px;
   justify-content: space-between;
   list-style-type: none;
+  margin-top: -10px;
 }
 
 .tag {
