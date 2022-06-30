@@ -200,3 +200,25 @@ h1 {
   margin: auto;
   text-decoration: none;
 }
+
+#work-intro {
+  text-align: start;
+  left: 25%;
+  width: 90%;
+  height: 120px;
+  border-bottom: solid 1px #646369;
+  margin-right: 5%;
+  margin-left: 4%;
+  display: block;
+}
+
+#work-title {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+  color: #9490ff;
+  width: 327px;
+  height: 110px;
+  margin-top: -2px;
+}
