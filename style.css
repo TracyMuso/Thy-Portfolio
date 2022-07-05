@@ -423,7 +423,7 @@ form {
   padding: 5px 5px 5px 5px;
 }
 
-form > button {
+.button {
   align-items: center;
   padding: 12px;
   gap: 10px;
