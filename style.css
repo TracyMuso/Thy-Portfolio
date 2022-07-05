@@ -383,3 +383,51 @@ h1 {
   color: #f5f5ff;
   vertical-align: top;
 }
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  height: 292px;
+  margin-top: 100px;
+  font-family: "Inter", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: center
+}
+
+#textn {
+  width: 100%;
+  height: 48px;
+  font-size: 15px;
+  line-height: 24px;
+  align-items: center;
+  color: #81818c;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 15px;
+}
+
+#email {
+  width: 100%;
+  height: 48px;
+  font-size: 15px;
+  align-items: center;
+  color: #191765;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 15px;
+}
+
+#add {
+  width: 100%;
+  height: 148px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #81818c;
+  text-align: left;
+  padding: 5px 5px 5px 5px;
+  margin-bottom: 15px;
+}
+
+
+
