@@ -343,14 +343,6 @@ button:enabled {
   background: #7d73fc;
 }
 
-.contact {
-  align-items: center;
-  margin: auto;
-  flex-direction: column;
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .cont-heading {
   display: flex;
   flex-direction: column;
@@ -358,9 +350,11 @@ button:enabled {
   gap: 24px;
   width: 327px;
   height: 164px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.cont {
+.cont1 {
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
@@ -371,7 +365,7 @@ button:enabled {
   height: 35px;
 }
 
-.cont-a {
+.contact-text {
   width: 327px;
   height: 105px;
   font-family: "Inter", sans-serif;
@@ -382,8 +376,8 @@ button:enabled {
   text-align: center;
   color: #f5f5ff;
   vertical-align: top;
+  margin-top: -25px;
 }
-
 
 form {
   display: flex;
@@ -394,7 +388,8 @@ form {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 400;
-  justify-content: center
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #textn {
@@ -404,7 +399,7 @@ form {
   line-height: 24px;
   align-items: center;
   color: #81818c;
-  padding: 5px 5px 5px 5px;
+  padding: 8px 5px 8px 5px;
   margin-bottom: 15px;
 }
 
@@ -414,7 +409,7 @@ form {
   font-size: 15px;
   align-items: center;
   color: #191765;
-  padding: 5px 5px 5px 5px;
+  padding: 8px 5px 8px 5px;
   margin-bottom: 15px;
 }
 
@@ -426,7 +421,6 @@ form {
   color: #81818c;
   text-align: left;
   padding: 5px 5px 5px 5px;
-  margin-bottom: 15px;
 }
 
 form > button {
@@ -443,5 +437,23 @@ form > button {
   color: #edecff;
   margin-top: 30px;
   border: #7d73fc;
+  margin-left: auto;
+  margin-right: auto;
  }
 
+footer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 50px;
+  border-top: solid 1px #3a3837;
+  width: 100%;
+}
+
+.em {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
