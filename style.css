@@ -5,6 +5,24 @@ body {
   font-style: normal;
 }
 
+@media only screen and (max-width: 767px) {
+  .pages {
+    display: none;
+  }
+
+  .page {
+    display: none;
+  }
+
+  .work1 {
+    display: none;
+  }
+
+  .cont1 {
+    display: none;
+  }
+}
+
 .bi-list {
   position: absolute;
   top: 20px;
@@ -553,5 +571,30 @@ footer {
     align-items: flex-start;
     padding-left: 0;
     margin-left: 6px;
+  }
+
+  #socialmedia {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+    width: 85%;
+    height: 50px;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .work1 {
+    font-size: 20px;
+    line-height: 32px;
+    line-height: 137%;
+    text-align: center;
+    align-content: center;
+    vertical-align: top;
+    color: #a2a3ae;
+    display: flex;
+    width: 77px;
+    height: 40px;
+    order: 3;
   }
 }
