@@ -783,13 +783,14 @@ footer {
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 10px;
   }
 
   footer {
     display: flex;
     flex-direction: row;
     align-content: center;
-    margin-top: 50px;
+    margin-top: 80px;
     border-top: solid 1px #3a3837;
     width: 100%;
     justify-content: center;
