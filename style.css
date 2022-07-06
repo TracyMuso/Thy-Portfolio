@@ -457,3 +457,10 @@ footer {
   text-align: center;
   color: #ebebff;
 }
+
+@media only screen and (min-width: 768px) {
+  .bi-list {
+    display: none;
+  }
+
+}
