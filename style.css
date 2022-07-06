@@ -518,6 +518,12 @@ footer {
     color: #fff;
   }
 
+  #logo {
+    left: 8%;
+    margin-left: 10px;
+  }
+  
+
   #one {
     position: absolute;
     left: 3%;
@@ -582,7 +588,8 @@ footer {
     border-top: 1px solid #646369;
     border-bottom: 1px solid #646369;
     margin: auto;
-    padding: 5px 0 5px 30px;
+    padding: 5px 0 5px 20px;
+    justify-content: center;
   }
 
   #langs {
