@@ -597,4 +597,16 @@ footer {
     height: 40px;
     order: 3;
   }
+
+  #work-title {
+    display: inline-block;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 52px;
+    color: #9490ff;
+    width: 50%;
+    height: 110px;
+    padding-bottom: 0;
+    margin-top: 50px;
+  }
 }
