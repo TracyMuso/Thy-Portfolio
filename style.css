@@ -79,7 +79,7 @@ h1 {
 }
 
 #role {
-  width: 327px;
+  width: 330px;
   height: 170px;
   font-weight: 400;
   font-size: 20px;
@@ -131,6 +131,7 @@ h1 {
   line-height: 1.5em;
   align-items: flex-start;
   gap: 12px;
+  margin-left: 0;
 }
 
 #fw {
@@ -142,6 +143,10 @@ h1 {
   line-height: 1.5em;
   align-items: flex-start;
   text-align: right;
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 #skills {
@@ -472,17 +477,13 @@ footer {
     float: right;
     margin-top: 20px;
   }
-/* 
-  nav {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    height: 72px;
-    width: auto;
-  } */
+
+  li {
+    list-style: none;
+    color: #fff;
+  }
 
   .page {
-    list-style: none;
     font-size: 20px;
     line-height: 20px;
     letter-spacing: 0.05em;
@@ -497,4 +498,60 @@ footer {
     font-size: 23px;
   }
 
+  #intro > h1 {
+    height: 96px;
+    font-weight: 600;
+    font-size: 80px;
+    text-align: center;
+    letter-spacing: 0.17px;
+    color: #7d73fc;
+    align-items: center;
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  #intro > h3 {
+    height: 87px;
+    font-weight: 500;
+    font-size: 50px;
+    align-items: center;
+    text-align: center;
+    color: #edecff;
+    width: auto;
+    top: 150px;
+  }
+
+  #role {
+  width: 71%;
+  height: 155px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #B3BAC5;
+  }
+
+  #education {
+    display: flex;
+    gap: 2%;
+    width: 61%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border-top: 1px solid #646369;
+    border-bottom: 1px solid #646369;
+    margin: auto;
+    padding: 5px 0 5px 30px;
+  }
+
+  #skills {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 122px;
+    height: 224px;
+    line-height: 1.5em;
+    align-items: flex-start;
+    padding-left: 0;
+    margin-left: 6px;
+  }
 }
