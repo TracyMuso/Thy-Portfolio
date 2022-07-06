@@ -25,9 +25,10 @@ body {
   #one {
     display: none;
   }
-   #two {
+
+  #two {
     display: none;
-   }
+  }
 }
 
 .bi-list {
@@ -571,13 +572,13 @@ footer {
   }
 
   #role {
-  width: 71%;
-  height: 155px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 32px;
-  text-align: center;
-  color: #B3BAC5;
+    width: 71%;
+    height: 155px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #b3bac5;
   }
 
   #education {
@@ -644,15 +645,15 @@ footer {
     background: url(images/EllipseOne.svg) left center no-repeat;
     width: 100%;
   }
-  
+
   #work-grid-two {
     background: url(images/EllipseTwo.svg) right bottom no-repeat;
   }
-  
+
   #work-grid-three {
     background: url(images/EllipseThree.svg) left bottom no-repeat;
   }
-  
+
   #work-grid-four {
     background: url(images/EllipseFour.svg) right top no-repeat;
   }
@@ -771,7 +772,7 @@ footer {
     vertical-align: top;
     margin-top: -25px;
   }
-  
+
   form {
     display: flex;
     flex-direction: column;
