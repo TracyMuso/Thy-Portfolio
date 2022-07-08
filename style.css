@@ -525,11 +525,22 @@ footer {
     animation-name: logoslide;
     animation-iteration-count: 1;
   }
-  @keyframes logoslide { 
-    0% { margin-left: 35%; width: 300%; } 
-    70% { left: 0; }
-    100% { width: 100%; } 
-  } 
+
+  @keyframes logoslide {
+    0% {
+      margin-left: 35%;
+      width: 300%;
+    }
+
+    70% {
+      left: 0;
+    }
+
+    100% {
+      width: 100%;
+    }
+  }
+
   #one {
     position: absolute;
     left: 3%;
