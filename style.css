@@ -521,6 +521,9 @@ footer {
   #logo {
     left: 8%;
     margin-left: 10px;
+    animation-duration: 2s;
+    animation-name: logoslide;
+    animation-iteration-count: 1;
   }
 
   #one {
