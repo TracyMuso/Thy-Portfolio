@@ -25,7 +25,7 @@ https://elfin-git.github.io/Thy-Portfolio/
 
 Contributions, issues, and feature requests are welcome!
 
-**Shout out to the following people who contributed to this project**
+**Shout out to the contributors of this project**
 
 👤 **Momanyi Hassan**
 
