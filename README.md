@@ -9,9 +9,9 @@
 - HTML & CSS
 - Github
 
-## Live Demo (if available)
+## Live Demo 
 
-http://127.0.0.1:5500/
+https://elfin-git.github.io/Thy-Portfolio/
 
 ## Authors
 
@@ -25,7 +25,7 @@ http://127.0.0.1:5500/
 
 Contributions, issues, and feature requests are welcome!
 
-#Shout out to the following people who contributed to this project
+**Shout out to the following people who contributed to this project**
 
 👤 **Momanyi Hassan**
 
