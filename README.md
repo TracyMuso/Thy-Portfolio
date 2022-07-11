@@ -21,6 +21,11 @@ http://127.0.0.1:5500/
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
 - LinkedIn: [LinkedIn](https://linkedin.com/in/tracy-musongole)
 
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+#Shout out to the following people who contributed to this project
 
 👤 **Momanyi Hassan**
 
@@ -28,9 +33,6 @@ http://127.0.0.1:5500/
 - LinkedIn: [momanyi-hassan](https://linkedin.com/in/momanyi-hassan-32a489180)
 - Twitter: [@moseshassany](https://twitter.com/moseshassany)
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
