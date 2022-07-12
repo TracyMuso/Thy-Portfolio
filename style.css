@@ -416,6 +416,10 @@ form {
   margin-right: auto;
 }
 
+label {
+  display: none;
+}
+
 #textn {
   width: 100%;
   height: 48px;
