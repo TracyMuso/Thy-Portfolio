@@ -14,18 +14,9 @@ body {
     display: none;
   }
 
-  .work1 {
-    display: none;
-  }
-
-  .cont2 {
-    display: none;
-  }
-
-  #one {
-    display: none;
-  }
-
+  .work1,
+  .cont2,
+  #one,
   #two {
     display: none;
   }
@@ -487,11 +478,7 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .bi-list {
-    display: none;
-  }
-
-  .cont1 {
+  .bi-list, .cont1 {
     display: none;
   }
 
