@@ -22,3 +22,9 @@ menuItems.forEach(
     pageLink.addEventListener('click', toggleMenu);
   },
 );
+
+let title = '';
+if (typeof document !== 'undefined') {
+  title = document.title;
+}
+return title;
