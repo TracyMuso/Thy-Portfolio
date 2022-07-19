@@ -530,6 +530,7 @@ footer {
     top: 1rem;
     right: 4rem;
     background: #191765;
+    margin-top: 7px;
   }
 
   .page {
@@ -550,7 +551,8 @@ footer {
   }
 
   #logo {
-    left: 8%;
+    left: 1rem;
+    top: 1rem;
     margin-left: 10px;
     animation-duration: 2s;
     animation-name: logoslide;
