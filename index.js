@@ -1,6 +1,6 @@
-const hamburger = document.querySelectorAll('.hamMenu')[1];
-const burgerMenu = document.querySelector('.navItems');
+const menu = document.querySelector(".navItems");
+const menuItems = document.querySelectorAll(".pageLinks");
+const hamburger= document.querySelector(".hamMenu");
+const closeMenu= document.querySelector(".bi-x");
+const Seemenu = document.querySelector(".bi-list");
 
-hamburger.addEventListener('click', function(){
-  burgerMenu.classList.add('large')
-})

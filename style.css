@@ -5,10 +5,7 @@ body {
   font-style: normal;
 }
 
-.pages {
-   display: none;
-}
-
+.pages,
 .work1,
 .bi-x,
 .cont2,
@@ -39,6 +36,8 @@ body {
   margin-top: -15rem;
   background: #191765;
   z-index: 99;
+  width: 100%;
+  border: 1px black;
 }
 
 .large {
@@ -53,22 +52,24 @@ body {
   align-items: center;
   padding-top: 6rem;
   gap: 5rem;
-  background-color: yellow;
+  background: url(images/mobilemenu-2.svg) left top no-repeat, url(images/mobilemenu-1.svg) right bottom no-repeat; 
+  background-color:  #191765;;
   z-index: 1;
 }
 
 .pageLinks {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  width: 70%;
+  width: 100%;
+  align-items: center;
   z-index: 99;
-  gap: 1rem;
+  gap: 35vw;
+  padding: 1px 0;
+  margin-left: 0;
 }
 
-.pageLinks :nth-child(1) {
-  padding-left: 0;
-  margin-left: -1rem;
+.arrow {
+  margin-left: 1.7rem;
 }
 
 .pageLink {
@@ -102,7 +103,7 @@ ul {
   list-style-type: none;
 }
 
-#about {
+#About {
   background: url(images/Ellipse1.svg) left top no-repeat;
   align-items: center;
 }
@@ -114,7 +115,7 @@ ul {
 #intro {
   display: flex;
   flex-direction: column;
-  margin-top: 100px;
+  margin-top:15rem;
   margin-bottom: 20px;
   width: 80%;
   justify-content: center;
