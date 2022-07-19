@@ -18,13 +18,7 @@ function toggleMenu() {
 
 hamburger.addEventListener('click', toggleMenu);
 menuItems.forEach(
-  (pageLink) => {
+  function(pageLink) {
     pageLink.addEventListener('click', toggleMenu);
-  },
-);
-
-let title = '';
-if (typeof document !== 'undefined') {
-  title = document.title;
-}
-return title;
+  }
+)
