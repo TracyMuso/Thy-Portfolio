@@ -10,11 +10,8 @@ body {
     display: none;
   }
 
-  .page {
-    display: none;
-  }
-
   .work1,
+  .bi-x,
   .cont2,
   #one,
   #two {
@@ -22,15 +19,58 @@ body {
   }
 }
 
-.bi-list {
-  position: absolute;
-  top: 20px;
-  right: 0;
+.hamMenu {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
   font-size: 35px;
   padding: 5px 10px;
   color: #fff;
-  margin-right: 15px;
+  cursor: pointer;
+  border: none;
+  background: #191765;
+  z-index: 100;
 }
+
+.navItems {
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: -15rem;
+  background: #191765;
+  z-index: 99;
+}
+
+.large {
+  all: unset;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: yellow;
+  z-index: 1;
+}
+
+.pageLinks :nth-child(1) {
+  padding-left: 0;
+  margin-left: -1rem;
+}
+
+.pageLink {
+  list-style: none;
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  text-decoration: none;
+  padding: 5px;
+}
+
 
 #logo {
   position: absolute;
@@ -478,18 +518,18 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .bi-list, .cont1 {
+  .bi-list, .cont1, .bi-x {
     display: none;
   }
 
   .pages {
     list-style-type: none;
     display: flex;
+    position: fixed;
     justify-content: space-between;
-    align-items: center;
-    margin-right: 120px;
-    float: right;
-    margin-top: 20px;
+    top: 1rem;
+    right: 4rem;
+    background: #191765;
   }
 
   .page {
