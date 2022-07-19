@@ -52,8 +52,8 @@ body {
   align-items: center;
   padding-top: 6rem;
   gap: 5rem;
-  background: url(images/mobilemenu-2.svg) left top no-repeat, url(images/mobilemenu-1.svg) right bottom no-repeat; 
-  background-color:  #191765;;
+  background: url(images/mobilemenu-2.svg) left top no-repeat, url(images/mobilemenu-1.svg) right bottom no-repeat;
+  background-color: #191765;
   z-index: 1;
 }
 
@@ -115,7 +115,7 @@ ul {
 #intro {
   display: flex;
   flex-direction: column;
-  margin-top:15rem;
+  margin-top: 15rem;
   margin-bottom: 20px;
   width: 80%;
   justify-content: center;
@@ -526,7 +526,9 @@ footer {
 }
 
 @media only screen and (min-width: 768px) {
-  .bi-list, .cont1, .bi-x {
+  .bi-list,
+  .cont1,
+  .bi-x {
     display: none;
   }
 
