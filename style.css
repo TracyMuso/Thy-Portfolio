@@ -5,18 +5,16 @@ body {
   font-style: normal;
 }
 
-@media only screen and (max-width: 767px) {
-  .pages {
-    display: none;
-  }
+.pages {
+   display: none;
+}
 
-  .work1,
-  .bi-x,
-  .cont2,
-  #one,
-  #two {
-    display: none;
-  }
+.work1,
+.bi-x,
+.cont2,
+#one,
+#two {
+  display: none;
 }
 
 .hamMenu {
@@ -58,6 +56,13 @@ body {
   z-index: 1;
 }
 
+.pageLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+
 .pageLinks :nth-child(1) {
   padding-left: 0;
   margin-left: -1rem;
@@ -70,7 +75,6 @@ body {
   text-decoration: none;
   padding: 5px;
 }
-
 
 #logo {
   position: absolute;
@@ -184,7 +188,7 @@ h1 {
   display: flex;
   flex-direction: column;
   width: 25%;
-  height: 167.33px;
+  height: 167px;
   line-height: 1.5em;
   align-items: flex-start;
   gap: 12px;
