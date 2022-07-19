@@ -10,7 +10,6 @@ body {
 }
 
 .work1,
-.bi-x,
 .cont2,
 #one,
 #two {
@@ -41,6 +40,10 @@ body {
   z-index: 99;
 }
 
+.navItems > li {
+  width: 100%;
+}
+
 .large {
   all: unset;
   position: fixed;
@@ -53,17 +56,18 @@ body {
   align-items: center;
   padding-top: 6rem;
   gap: 5rem;
-  background-color: yellow;
+  background-color: blue;
   z-index: 1;
 }
 
 .pageLinks {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   width: 70%;
   z-index: 99;
   gap: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .pageLinks :nth-child(1) {
@@ -522,6 +526,10 @@ footer {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+}
+
+.no-display {
+  display: none !important;
 }
 
 @media only screen and (min-width: 768px) {
