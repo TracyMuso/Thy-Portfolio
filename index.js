@@ -18,7 +18,7 @@ function toggleMenu() {
 
 hamburger.addEventListener('click', toggleMenu);
 menuItems.forEach(
-  function(pageLink) {
+  (pageLink) => {
     pageLink.addEventListener('click', toggleMenu);
-  }
-)
+  },
+);
