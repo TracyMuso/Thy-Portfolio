@@ -1,0 +1,32 @@
+#Work-card-popup {
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+    z-index: 98; 
+}
+
+.#Work-card-popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 0.5;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    
+    to {
+        opacity: 0.5;
+    }
+}
