@@ -52,7 +52,7 @@ body {
   align-items: center;
   padding-top: 6rem;
   gap: 5rem;
-  background: url(images/mobilemenu-2.svg) left top no-repeat, url(images/mobilemenu-1.svg) right bottom no-repeat;
+  background: url(../images/mobilemenu-2.svg) left top no-repeat, url(../images/mobilemenu-1.svg) right bottom no-repeat;
   background-color: #191765;
   z-index: 1;
 }
@@ -104,12 +104,12 @@ ul {
 }
 
 #About {
-  background: url(images/Ellipse1.svg) left top no-repeat;
+  background: url(../images/Ellipse1.svg) left top no-repeat;
   align-items: center;
 }
 
 #ab {
-  background: url(images/Ellipse2.svg) right top no-repeat;
+  background: url(../images/Ellipse2.svg) right top no-repeat;
 }
 
 #intro {
@@ -286,20 +286,20 @@ h1 {
 }
 
 #work-grid-one {
-  background: url(images/Ellipse-5.svg) left center no-repeat;
+  background: url(../images/Ellipse-5.svg) left center no-repeat;
   width: 100%;
 }
 
 #work-grid-two {
-  background: url(images/Ellipse-4.svg) right center no-repeat;
+  background: url(../images/Ellipse-4.svg) right center no-repeat;
 }
 
 #work-grid-three {
-  background: url(images/Ellipse6.svg) left center no-repeat;
+  background: url(../images/Ellipse6.svg) left center no-repeat;
 }
 
 #work-grid-four {
-  background: url(images/Ellipse-7.svg) right center no-repeat;
+  background: url(../images/Ellipse-7.svg) right center no-repeat;
 }
 
 .project-grid {
@@ -490,8 +490,13 @@ label {
   padding: 5px 5px 5px 5px;
 }
 
+.error-msg {
+  display: inline;
+}
+
 .button {
   align-items: center;
+  justify-content: center;
   padding: 12px;
   gap: 10px;
   width: 160px;
@@ -506,6 +511,15 @@ label {
   border: #7d73fc;
   margin-left: auto;
   margin-right: auto;
+}
+
+input.invalid {
+  border-color: #900;
+  background-color: #fdddfd;
+}
+
+input:focus.invalid {
+  outline: none;
 }
 
 footer {
@@ -703,20 +717,20 @@ footer {
   }
 
   #work-grid-one {
-    background: url(images/EllipseOne.svg) left center no-repeat;
+    background: url(../images/EllipseOne.svg) left center no-repeat;
     width: 100%;
   }
 
   #work-grid-two {
-    background: url(images/EllipseTwo.svg) right bottom no-repeat;
+    background: url(../images/EllipseTwo.svg) right bottom no-repeat;
   }
 
   #work-grid-three {
-    background: url(images/EllipseThree.svg) left bottom no-repeat;
+    background: url(../images/EllipseThree.svg) left bottom no-repeat;
   }
 
   #work-grid-four {
-    background: url(images/EllipseFour.svg) right top no-repeat;
+    background: url(../images/EllipseFour.svg) right top no-repeat;
   }
 
   .project-grid {
@@ -735,8 +749,8 @@ footer {
   }
 
   .project-img {
-    width: 450px;
-    height: 350px;
+    width: 40%;
+    height: 17rem;
     margin-top: 37px;
     padding-left: 5px;
   }
@@ -747,7 +761,7 @@ footer {
     width: 300px;
     align-items: stretch;
     height: 280px;
-    margin-top: 15px;
+    margin-top: -1.5rem;
     padding: 5px;
   }
 

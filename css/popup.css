@@ -1,0 +1,300 @@
+#Work-card-popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  width: 100vw;
+  height: 100%;
+  background: rgba(25, 23, 101, 0.99);
+  z-index: 199;
+  overflow-y: auto;
+}
+
+.popup {
+  width: 80vw;
+  margin: 4rem auto;
+  background: rgba(255, 255, 255, 0.19);
+  border: 1px solid #fff;
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+  overflow-y: auto;
+}
+
+.workText2 {
+  display: none;
+}
+
+.first-block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.bi-chevron-compact-right {
+  position: absolute;
+  top: 23rem;
+  color: #fff;
+  font-size: 40px;
+  left: 83vw;
+}
+
+.bi-chevron-compact-left {
+  position: absolute;
+  top: 23rem;
+  color: #fff;
+  font-size: 40px;
+  right: 83vw;
+}
+
+.work-card-title {
+  font-size: 30px;
+  color: #fff;
+  padding: 5px;
+}
+
+.x-icon {
+  font-size: 30px;
+  font-weight: 100;
+  color: #fff;
+  padding: 5px;
+  cursor: pointer;
+  position: absolute;
+  right: 13%;
+}
+
+.images-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  width: 75vw;
+  margin: 0.5rem auto;
+}
+
+.PI {
+  width: 75vw;
+  height: 30rem;
+  margin: 0 auto;
+  align-items: center;
+  background: url(/images/Snapshoot-Portfolio2.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.other-works {
+  position: relative;
+  display: inline-flex;
+  flex-direction: row;
+  width: 76vw;
+  height: 6rem;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  gap: 0;
+}
+
+.first-project {
+  width: 18.7vw;
+  height: 6.6rem;
+  margin: 0;
+  padding: 0;
+  background: url(/images/Snapshoot-Portfolio1.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.workText {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: center;
+  color: #fff;
+  width: 50vw;
+  height: 20%;
+  margin: 0.5rem auto;
+  padding: 1rem 0.5rem;
+}
+
+.work-tag {
+  font-size: 17px;
+  color: #fff;
+  padding: 5px;
+}
+
+.divs {
+  width: 1px;
+  border: solid 1px #81818c;
+  height: 40px;
+}
+
+.project-tags {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 35vw;
+  margin: 1rem auto;
+  gap: 0.5rem;
+  padding: 0.2rem;
+}
+
+.btns {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  margin: 0.5rem auto;
+  justify-content: center;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  background: #7d73fc;
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
+  border: none;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #edecff;
+  bottom: 10%;
+}
+
+.btn1 {
+  width: 100px;
+  height: 48px;
+}
+
+.bi-arrow-up-right-circle {
+  font-size: 20px;
+}
+
+.btn2 {
+  width: 120px;
+  height: 48px;
+}
+
+.go-to {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2rem auto;
+  width: 70vw;
+}
+
+.next {
+  text-decoration: none;
+  color: #fff;
+}
+
+.previous {
+  text-decoration: none;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .work-card-title {
+    font-size: 20px;
+    color: #fff;
+    padding: 5px;
+  }
+
+  .popup {
+    overflow-y: auto;
+    width: 85vw;
+  }
+
+  .x-icon {
+    font-size: 23px;
+    top: 3.4rem;
+  }
+
+  .workText,
+  .go-to {
+    display: none;
+  }
+
+  .PI {
+    width: 75vw;
+    height: 15rem;
+    margin: 0 auto;
+  }
+
+  .bi-chevron-compact-right {
+    position: absolute;
+    top: 14rem;
+    color: #fff;
+    font-size: 40px;
+    left: 80vw;
+  }
+
+  .bi-chevron-compact-left {
+    position: absolute;
+    top: 14rem;
+    color: #fff;
+    font-size: 40px;
+    right: 80vw;
+  }
+
+  .other-works {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+    height: 1.7rem;
+    margin: 1rem 0 auto auto;
+    padding: 0;
+    gap: 0;
+  }
+
+  /* .first-project {
+    display: inline;
+    width: 17.3vw;
+    margin: 0 -1px;
+    padding: 0;
+  } */
+
+  .first-project {
+    width: 18.7vw;
+    height: 4.6rem;
+    margin: 0;
+    padding: 0;
+    background: url(/images/Snapshoot-Portfolio1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .workText2 {
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #fff;
+    width: 60vw;
+    height: 20%;
+    margin: 0.5rem auto;
+    padding: 0.5rem;
+  }
+
+  .btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem auto;
+    align-items: center;
+    padding-bottom: 2rem;
+  }
+
+  .project-tags {
+    width: 78vw;
+    margin: 0.5rem 2rem auto auto;
+    justify-content: center;
+    padding: 0.5rem;
+  }
+}
