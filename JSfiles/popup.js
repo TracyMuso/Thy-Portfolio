@@ -156,7 +156,7 @@ window.addEventListener('load', () => {
 //     modal.style.display = 'none';
 //   }
 // }
-
+const modal = document.querySelector('#Work-card-popup');
 for (let i = 0; i < worksArr.length; i += 1) {
   modal.innerHTML = `<div class="popup">
     <div class="first-block">
@@ -196,14 +196,21 @@ for (let i = 0; i < worksArr.length; i += 1) {
 
 const seeProject = document.querySelectorAll('.btn');
 const exitModal = document.querySelector('.bi-x');
-seeProject.forEach((btn) => {
-  btn.addEventListener('click', () => {
-    document.getElementById('Work-card-popup').style.display = 'block';
-    console.log('i am clicked!')
-  });
-});
+// seeProject.forEach((btn) => {
+//   btn.addEventListener('click', () => {
+//     document.getElementById('Work-card-popup').style.display = 'block';
+//     console.log('i am clicked!')
+//   });
+// });
+document.querySelector('#Projects').addEventListener('click', (e) => {
+  const { target } = e;
+
+  if (!target.classList.contains('btn')) {
+    return;
+  }
+  document.getElementById('Work-card-popup').style.display = 'block';
+})
 exitModal.addEventListener('click', () => {
   document.getElementById('Work-card-popup').style.display = 'none';
 });
 
-const modal = document.querySelector('#Work-card-popup');

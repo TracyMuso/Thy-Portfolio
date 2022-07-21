@@ -52,7 +52,7 @@ body {
   align-items: center;
   padding-top: 6rem;
   gap: 5rem;
-  background: url(images/mobilemenu-2.svg) left top no-repeat, url(images/mobilemenu-1.svg) right bottom no-repeat;
+  background: url(../images/mobilemenu-2.svg) left top no-repeat, url(../images/mobilemenu-1.svg) right bottom no-repeat;
   background-color: #191765;
   z-index: 1;
 }
@@ -104,12 +104,12 @@ ul {
 }
 
 #About {
-  background: url(images/Ellipse1.svg) left top no-repeat;
+  background: url(../images/Ellipse1.svg) left top no-repeat;
   align-items: center;
 }
 
 #ab {
-  background: url(images/Ellipse2.svg) right top no-repeat;
+  background: url(../images/Ellipse2.svg) right top no-repeat;
 }
 
 #intro {
@@ -286,20 +286,20 @@ h1 {
 }
 
 #work-grid-one {
-  background: url(images/Ellipse-5.svg) left center no-repeat;
+  background: url(../images/Ellipse-5.svg) left center no-repeat;
   width: 100%;
 }
 
 #work-grid-two {
-  background: url(images/Ellipse-4.svg) right center no-repeat;
+  background: url(../images/Ellipse-4.svg) right center no-repeat;
 }
 
 #work-grid-three {
-  background: url(images/Ellipse6.svg) left center no-repeat;
+  background: url(../images/Ellipse6.svg) left center no-repeat;
 }
 
 #work-grid-four {
-  background: url(images/Ellipse-7.svg) right center no-repeat;
+  background: url(../images/Ellipse-7.svg) right center no-repeat;
 }
 
 .project-grid {
@@ -716,20 +716,20 @@ footer {
   }
 
   #work-grid-one {
-    background: url(images/EllipseOne.svg) left center no-repeat;
+    background: url(../images/EllipseOne.svg) left center no-repeat;
     width: 100%;
   }
 
   #work-grid-two {
-    background: url(images/EllipseTwo.svg) right bottom no-repeat;
+    background: url(../images/EllipseTwo.svg) right bottom no-repeat;
   }
 
   #work-grid-three {
-    background: url(images/EllipseThree.svg) left bottom no-repeat;
+    background: url(../images/EllipseThree.svg) left bottom no-repeat;
   }
 
   #work-grid-four {
-    background: url(images/EllipseFour.svg) right top no-repeat;
+    background: url(../images/EllipseFour.svg) right top no-repeat;
   }
 
   .project-grid {
