@@ -195,6 +195,29 @@ for (let i = 0; i < worksArr.length; i += 1) {
          </div>
 `;
 }
+const img = document.querySelector('first-project');
+const img1 = document.querySelectorAll('first-project')[1];
+const img2 = document.querySelectorAll('first-project')[2];
+const img3 = document.querySelectorAll('first-project')[3];
+const img4 = document.querySelectorAll('first-project')[4];
+const ImgArr = [img1, img2, img3, img4];
+let i = 0;
+
+function setImg() {
+  ImgArr[i + 1].style.border = '1px black';
+}
+
+function prev() {
+  if (i <= 0) i = ImgArr.length;
+  i -= 1;
+  return setImg();
+}
+
+function next() {
+  if (i >= ImgArr.length) i = -1;
+  i += 1;
+}
+
 
 const seeProject = document.querySelectorAll('.btn');
 const exitModal = document.querySelector('.x-icon');
