@@ -54,6 +54,7 @@ const works4 = {
 const bigImage = {
   Image: './images/Snapshoot-Portfolio2.svg',
 };
+
 const worksArr = [works1, works2, works3, works4];
 window.addEventListener('load', () => {
   const Projects = document.getElementById('Projects');
@@ -66,7 +67,7 @@ window.addEventListener('load', () => {
 <div class="project-grid">
   <img class="project-img" alt="project pic" src="images/Snapshoot-Portfolio2.svg">
     <div class="img-text">
-      <h3 class="project-title">${worksArr[i].Title}</h3>
+      <h3 class="project-title">${worksArr[0].Title}</h3>
        <p class="project-intro">A daily selection of privately personalized reads;
        no accounts or sign-ups required.
        has been the industry's standard dummy text ever since the 1500s,
@@ -87,7 +88,7 @@ window.addEventListener('load', () => {
 <section id="work-grid-two">
 <div class="project-grid">
     <div class="img-text">
-      <h3 class="project-title">${worksArr[i].Title}</h3>
+      <h3 class="project-title">${worksArr[1].Title}</h3>
        <p class="project-intro">A daily selection of privately personalized reads;
        no accounts or sign-ups required.
        has been the industry's standard dummy text ever since the 1500s,
@@ -111,7 +112,7 @@ window.addEventListener('load', () => {
 <div class="project-grid">
   <img class="project-img" alt="project pic" src="images/Snapshoot-Portfolio2.svg">
     <div class="img-text">
-      <h3 class="project-title">${worksArr[i].Title}</h3>
+      <h3 class="project-title">${worksArr[2].Title}</h3>
        <p class="project-intro">A daily selection of privately personalized reads;
        no accounts or sign-ups required.
        has been the industry's standard dummy text ever since the 1500s,
@@ -132,7 +133,7 @@ window.addEventListener('load', () => {
 <section id="work-grid-four">
 <div class="project-grid">
     <div class="img-text">
-      <h3 class="project-title">${worksArr[i].Title}</h3>
+      <h3 class="project-title">${worksArr[3].Title}</h3>
        <p class="project-intro">A daily selection of privately personalized reads;
        no accounts or sign-ups required.
        has been the industry's standard dummy text ever since the 1500s,
