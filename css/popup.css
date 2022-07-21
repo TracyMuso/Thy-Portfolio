@@ -278,7 +278,7 @@ button {
     width: 60vw;
     height: 20%;
     margin: 0.5rem auto;
-    padding: 0.5rem
+    padding: 0.5rem;
   }
 
   .btns {
@@ -295,14 +295,6 @@ button {
     width: 78vw;
     margin: 0.5rem 2rem auto auto;
     justify-content: center;
-    padding: 0.5rem
+    padding: 0.5rem;
   }
 }
-
-/* @media only screen and (min-width: 550px) {
-  .project-tags {
-    width: 78vw;
-    margin-top: 7rem;
-    justify-content: center;
-  }
-} */
