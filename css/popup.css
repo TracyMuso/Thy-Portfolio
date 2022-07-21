@@ -286,6 +286,7 @@ button {
     gap: 1rem;
     margin: -1rem 1rem auto auto;
     align-items: center;
+    padding-bottom: 2rem;
   }
 
   .project-tags {
