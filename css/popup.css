@@ -17,7 +17,7 @@
   margin: 1rem auto;
   background: rgba(255, 255, 255, 0.16);
   border: 1px solid #fff;
-  box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+  box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
   z-index: 200;
   overflow-y: auto;
 }
@@ -51,7 +51,7 @@
 }
 
 .work-card-title {
- font-size: 30px;
+  font-size: 30px;
   color: #fff;
   padding: 5px;
 }
@@ -62,7 +62,7 @@
   padding: 5px;
   cursor: pointer;
   position: fixed;
-  right: 13%
+  right: 13%;
 }
 
 .images-container {
@@ -244,7 +244,6 @@ button {
   .other-works {
     display: flex;
     flex-direction: row;
-    display: flex;
     width: 80vw;
     height: 1.7rem;
     margin: 1rem 0 auto auto;
@@ -291,7 +290,6 @@ button {
 
   .project-tags {
     width: 78vw;
-    margin-top: 7rem;
     margin: 5rem 2rem auto auto;
     justify-content: center;
   }
@@ -301,7 +299,6 @@ button {
   .project-tags {
     width: 78vw;
     margin-top: 7rem;
-    margin: 2rem 2rem auto auto;
     justify-content: center;
   }
 }

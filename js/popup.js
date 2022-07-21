@@ -195,7 +195,7 @@ for (let i = 0; i < worksArr.length; i += 1) {
          </div>
 `;
 }
-const img = document.querySelector('first-project');
+
 const img1 = document.querySelectorAll('first-project')[1];
 const img2 = document.querySelectorAll('first-project')[2];
 const img3 = document.querySelectorAll('first-project')[3];
@@ -217,7 +217,6 @@ function next() {
   if (i >= ImgArr.length) i = -1;
   i += 1;
 }
-
 
 const seeProject = document.querySelectorAll('.btn');
 const exitModal = document.querySelector('.x-icon');

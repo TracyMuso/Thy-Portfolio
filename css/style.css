@@ -512,9 +512,9 @@ label {
   margin-right: auto;
 }
 
-input.invalid{
-  border-color: #990000;
-  background-color: #fdddfd
+input.invalid {
+  border-color: #900;
+  background-color: #fdddfd;
 }
 
 input:focus.invalid {
