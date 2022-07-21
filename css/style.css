@@ -496,6 +496,7 @@ label {
 
 .button {
   align-items: center;
+  justify-content: center;
   padding: 12px;
   gap: 10px;
   width: 160px;
@@ -748,8 +749,8 @@ footer {
   }
 
   .project-img {
-    width: 450px;
-    height: 350px;
+    width: 40%;
+    height: 17rem;
     margin-top: 37px;
     padding-left: 5px;
   }
@@ -760,7 +761,7 @@ footer {
     width: 300px;
     align-items: stretch;
     height: 280px;
-    margin-top: 15px;
+    margin-top: -1.5rem;
     padding: 5px;
   }
 

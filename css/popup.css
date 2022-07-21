@@ -2,23 +2,22 @@
   position: fixed;
   top: 0;
   bottom: 0;
+  left: 0;
+  right: 0;
   display: none;
   width: 100vw;
   height: 100%;
-  margin: 1rem;
-  background: #191765;
+  background: rgba(25, 23, 101, 0.99);
   z-index: 199;
   overflow-y: auto;
 }
 
 .popup {
   width: 80vw;
-  height: 100%;
-  margin: 1rem auto;
-  background: rgba(255, 255, 255, 0.16);
+  margin: 4rem auto;
+  background: rgba(255, 255, 255, 0.19);
   border: 1px solid #fff;
   box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
-  z-index: 200;
   overflow-y: auto;
 }
 
@@ -36,18 +35,18 @@
 
 .bi-chevron-compact-right {
   position: absolute;
-  top: 22rem;
+  top: 23rem;
   color: #fff;
   font-size: 40px;
-  left: 74vw;
+  left: 83vw;
 }
 
 .bi-chevron-compact-left {
   position: absolute;
-  top: 22rem;
+  top: 23rem;
   color: #fff;
   font-size: 40px;
-  right: 74vw;
+  right: 83vw;
 }
 
 .work-card-title {
@@ -57,18 +56,19 @@
 }
 
 .x-icon {
-  font-size: 40px;
+  font-size: 30px;
+  font-weight: 100;
   color: #fff;
   padding: 5px;
   cursor: pointer;
-  position: fixed;
+  position: absolute;
   right: 13%;
 }
 
 .images-container {
   display: flex;
   flex-direction: column;
-  gap: 0.5rem;
+  gap: 0.4rem;
   width: 75vw;
   margin: 0.5rem auto;
 }
@@ -81,6 +81,7 @@
   background: url(/images/Snapshoot-Portfolio2.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .other-works {
@@ -90,7 +91,7 @@
   width: 76vw;
   height: 6rem;
   align-items: center;
-  margin: 0 1rem auto auto;
+  margin: 0 auto;
   padding: 0;
   gap: 0;
 }
@@ -103,6 +104,7 @@
   background: url(/images/Snapshoot-Portfolio1.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .workText {
@@ -113,12 +115,12 @@
   color: #fff;
   width: 50vw;
   height: 20%;
-  margin: 3rem auto;
-  padding: 1rem 0;
+  margin: 0.5rem auto;
+  padding: 1rem 0.5rem;
 }
 
 .work-tag {
-  font-size: 15px;
+  font-size: 17px;
   color: #fff;
   padding: 5px;
 }
@@ -132,21 +134,18 @@
 .project-tags {
   display: flex;
   flex-direction: row;
-  width: 30vw;
+  justify-content: center;
+  width: 35vw;
   margin: 1rem auto;
   gap: 0.5rem;
-  padding: 2rem 0;
-}
-
-li {
-  list-style: none;
+  padding: 0.2rem;
 }
 
 .btns {
   display: flex;
   flex-direction: row;
   gap: 4rem;
-  margin: 0 auto;
+  margin: 0.5rem auto;
   justify-content: center;
 }
 
@@ -206,12 +205,13 @@ button {
   }
 
   .popup {
-    overflow-y: scroll;
+    overflow-y: auto;
+    width: 85vw;
   }
 
   .x-icon {
-    font-size: 30px;
-    top: 1rem;
+    font-size: 23px;
+    top: 3.4rem;
   }
 
   .workText,
@@ -227,7 +227,7 @@ button {
 
   .bi-chevron-compact-right {
     position: absolute;
-    top: 12rem;
+    top: 14rem;
     color: #fff;
     font-size: 40px;
     left: 80vw;
@@ -235,7 +235,7 @@ button {
 
   .bi-chevron-compact-left {
     position: absolute;
-    top: 12rem;
+    top: 14rem;
     color: #fff;
     font-size: 40px;
     right: 80vw;
@@ -277,29 +277,32 @@ button {
     color: #fff;
     width: 60vw;
     height: 20%;
-    margin: 2rem auto;
+    margin: 0.5rem auto;
+    padding: 0.5rem
   }
 
   .btns {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
-    margin: -1rem 1rem auto auto;
+    margin: 1rem auto;
     align-items: center;
     padding-bottom: 2rem;
   }
 
   .project-tags {
     width: 78vw;
-    margin: 5rem 2rem auto auto;
+    margin: 0.5rem 2rem auto auto;
     justify-content: center;
+    padding: 0.5rem
   }
 }
 
-@media only screen and (min-width: 550px) {
+/* @media only screen and (min-width: 550px) {
   .project-tags {
     width: 78vw;
     margin-top: 7rem;
     justify-content: center;
   }
-}
+} */
