@@ -1,11 +1,5 @@
-body {
-  font-family: 'Roboto', sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  background: #191765;
-}
-
 #Work-card-popup {
+  display: none;
   width: 80vw;
   height: 90%;
   margin: 4rem auto;
@@ -32,6 +26,22 @@ body {
   padding: 0 1rem;
 }
 
+.bi-chevron-compact-right {
+  position: absolute;
+  top: 22rem;
+  color: #fff;
+  font-size: 40px;
+  left: 84vw;
+}
+
+.bi-chevron-compact-left {
+  position: absolute;
+  top: 22rem;
+  color: #fff;
+  font-size: 40px;
+  right: 84vw;
+}
+
 .work-card-title {
  font-size: 30px;
   color: #fff;
@@ -42,6 +52,7 @@ body {
   font-size: 40px;
   color: #fff;
   padding: 5px;
+  cursor: pointer;
 }
 
 .PI {
@@ -49,23 +60,26 @@ body {
   height: 70vh;
   margin: 0 auto;
   align-items: center;
-  background: url(/images/Snapshoot-Portfolio1.svg);
+  background: url(/images/Snapshoot-Portfolio2.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .other-works {
-  width: 76vw;
+  display: block;
+  width: 78vw;
   height: 14vh;
   align-items: center;
-  margin: 0 auto;
+  margin: -15px 0 auto auto;
   padding: 0;
+  gap: 0;
 }
 
 .first-project {
-  background: url(/images/Snapshoot-Portfolio2.svg);
-  width: 19vw;
-  margin: 0;
+  display: inline;
+  width: 18.9vw;
+  height: 25vh;
+  margin: 0 -1px;
   padding: 0;
 }
 
@@ -77,7 +91,7 @@ body {
   color: #fff;
   width: 60vw;
   height: 20vh;
-  margin: 1rem auto;
+  margin: 3rem auto;
   padding: 1rem 0;
 }
 
@@ -179,29 +193,62 @@ button:enabled {
 @media only screen and (max-width: 768px) {
   .work-card-title {
     font-size: 20px;
-     color: #fff;
-     padding: 5px;
-   }
+    color: #fff;
+    padding: 5px;
+  }
 
-   .bi-x {
-     font-size: 30px;
-     color: #fff;
-     padding: 5px;
-   }
+  .bi-x {
+    font-size: 30px;
+    color: #fff;
+    padding: 5px;
+  }
 
-   .workText,
-   .go-to,
-   .other-works {
+  .workText,
+  .go-to {
     display: none;
   }
 
-   .PI {
-     width: 70vw;
-     height: 35vh;
-     margin: 0 auto;
-   }
+  .PI {
+    width: 70vw;
+    height: 35vh;
+    margin: 0 auto;
+  }
 
-   .workText2 {
+  .bi-chevron-compact-right {
+    position: absolute;
+    top: 15rem;
+    color: #fff;
+    font-size: 40px;
+    left: 80vw;
+  }
+
+  .bi-chevron-compact-left {
+    position: absolute;
+    top: 15rem;
+    color: #fff;
+    font-size: 40px;
+    right: 80vw;
+  }
+
+  .other-works {
+    display: block;
+    width: 75vw;
+    height: 14vh;
+    align-items: center;
+    margin: -2.9rem 0 auto auto;
+    padding: 0;
+    gap: 0;
+  }
+
+  .first-project {
+    display: inline;
+    width: 17.3vw;
+    height: 25vh;
+    margin: 0 -1px;
+    padding: 0;
+  }
+
+  .workText2 {
     display: block;
     font-weight: 400;
     font-size: 16px;
@@ -210,10 +257,10 @@ button:enabled {
     color: #fff;
     width: 60vw;
     height: 20vh;
-    margin: 1rem auto;
+    margin: 2rem auto;
   }
 
-   .btns {
+  .btns {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -222,7 +269,18 @@ button:enabled {
   }
 
   .project-tags {
-    width: 70vw;
+    width: 78vw;
     margin-top: 7rem;
+    margin: 5rem 2rem auto auto;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 550px) {
+  .project-tags {
+    width: 78vw;
+    margin-top: 7rem;
+    margin: 2rem 2rem auto auto;
+    justify-content: center;
   }
 }

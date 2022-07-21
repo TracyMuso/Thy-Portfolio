@@ -490,6 +490,10 @@ label {
   padding: 5px 5px 5px 5px;
 }
 
+.error-msg {
+  display: inline;
+}
+
 .button {
   align-items: center;
   padding: 12px;
@@ -506,6 +510,15 @@ label {
   border: #7d73fc;
   margin-left: auto;
   margin-right: auto;
+}
+
+input.invalid{
+  border-color: #990000;
+  background-color: #fdddfd
+}
+
+input:focus.invalid {
+  outline: none;
 }
 
 footer {
