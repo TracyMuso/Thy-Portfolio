@@ -22,3 +22,5 @@ menuItems.forEach(
     pageLink.addEventListener('click', toggleMenu);
   },
 );
+
+// Form validation //

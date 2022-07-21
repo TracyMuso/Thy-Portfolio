@@ -2,49 +2,53 @@
 const works1 = {
   projectImage: './images/Snapshoot-Portfolio1.svg',
   Title: 'Multi-post Story',
-  Skills: ['&#124;', 'html', '&#124;', 'Ruby on Rails', '&#124;', 'css', 'Github', '&#124;'],
+  Skills: '&#124; html &#124; Ruby on Rails &#124; css &#124; Github &#124;',
   firstText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industr Lorem Ipsum has been the industrys standard dummy text ever since the 1500swhen an unknown printer took a galley of type and scrambled it 1960s with thereleaLorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,  when an unknown Lorem Ipsum is simply dummy text of the printing and',
   secondText: 'Lorem Ipsum is simply dummy text of the printingand typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the.',
   liveDemo: 'See live',
-  DemoSource: ['See Source', '/images/git-icon.svg'],
+  DemoSource: 'See Source ../images/git-icon.svg',
   nextProject: 'Next Project &#8594;',
   previousProject: '&#8592; Previous Project',
+  exitButton: '&#x2716;',
 };
 
 const works2 = {
   projectImage: './images/Snapshoot-Portfolio1.svg',
   Title: 'Project name goes here',
-  Skills: ['&#124;', 'html', '&#124;', 'Ruby on Rails', '&#124;', 'css', '&#124;', 'Github', '&#124;'],
+  Skills: '&#124; html &#124; Ruby on Rails &#124; css &#124; Github &#124;',
   firstText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industr Lorem Ipsum has been the industrys standard dummy text ever since the 1500swhen an unknown printer took a galley of type and scrambled it 1960s with thereleaLorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,  when an unknown Lorem Ipsum is simply dummy text of the printing and',
   secondText: 'Lorem Ipsum is simply dummy text of the printingand typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the.',
-  liveDemo: ['See live', '.bi bi-arrow-up-right-circle'],
-  DemoSource: ['See Source', '/images/git-icon.svg'],
+  liveDemo: 'See live',
+  DemoSource: 'See Source',
   nextProject: 'Next Project &#8594;',
   previousProject: '&#8592; Previous Project',
+  exitButton: '&#x2716;',
 };
 
 const works3 = {
   projectImage: './images/Snapshoot-Portfolio1.svg',
   Title: 'Project name goes here',
-  Skills: ['&#124;', 'html', '&#124;', 'Ruby on Rails', '&#124;', 'css', '&#124;', 'Github', '&#124;'],
+  Skills: '&#124; html &#124; Ruby on Rails &#124; css &#124; Github &#124;',
   firstText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industr Lorem Ipsum has been the industrys standard dummy text ever since the 1500swhen an unknown printer took a galley of type and scrambled it 1960s with thereleaLorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,  when an unknown Lorem Ipsum is simply dummy text of the printing and',
   secondText: 'Lorem Ipsum is simply dummy text of the printingand typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the.',
-  liveDemo: ['See live', '.bi bi-arrow-up-right-circle'],
-  DemoSource: ['See Source', '/images/git-icon.svg'],
+  liveDemo: 'See live',
+  DemoSource: 'See Source',
   nextProject: 'Next Project &#8594;',
   previousProject: '&#8592; Previous Project',
+  exitButton: '&#x2716;',
 };
 
 const works4 = {
   projectImage: './images/Snapshoot-Portfolio1.svg',
   Title: 'Project name goes here',
-  Skills: ['&#124;', 'html', '&#124;', 'Ruby on Rails', '&#124;', 'css', '&#124;', 'Github', '&#124;'],
+  Skills: '&#124; html &#124; Ruby on Rails &#124; css &#124; Github &#124;',
   firstText: 'Lorem Ipsum is simply dummy text of the printing and typesetting industr Lorem Ipsum has been the industrys standard dummy text ever since the 1500swhen an unknown printer took a galley of type and scrambled it 1960s with thereleaLorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,  when an unknown Lorem Ipsum is simply dummy text of the printing and',
   secondText: 'Lorem Ipsum is simply dummy text of the printingand typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s,when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the.',
-  liveDemo: ['See live', '.bi bi-arrow-up-right-circle'],
-  DemoSource: ['See Source', './images/git-icon.svg'],
+  liveDemo: 'See live',
+  DemoSource: 'See Source',
   nextProject: 'Next Project &#8594;',
   previousProject: '&#8592; Previous Project',
+  exitButton: '&#x2716;',
 };
 
 const bigImage = {
@@ -53,6 +57,7 @@ const bigImage = {
 const worksArr = [works1, works2, works3, works4];
 window.addEventListener('load', () => {
   const Projects = document.getElementById('Projects');
+
   Projects.innerHTML += `
 <div id="work-intro">
   <h3 id="work-title">MY RECENT WORK</h3>
@@ -149,30 +154,26 @@ window.addEventListener('load', () => {
 `;
 });
 
-
-
-// function(e) {
-//   if (e.target === modal) {
-//     modal.style.display = 'none';
-//   }
-// }
 const modal = document.querySelector('#Work-card-popup');
 for (let i = 0; i < worksArr.length; i += 1) {
   modal.innerHTML = `<div class="popup">
     <div class="first-block">
        <h2 class="work-card-title">${worksArr[i].Title}</h2>
-       <i class="bi bi-x"></i>
+       <p class="x-icon">${worksArr[i].exitButton}</p>
      </div>
+     <div class="images-container">
     <div class="PI"></div>
     <div class="other-works">
-      <a href=""><img class="first-project" src="${worksArr[0].projectImage}"></a>
-      <a href=""><img class="first-project" src="${worksArr[1].projectImage}"></a>
-      <a href=""><img class="first-project" src="${worksArr[2].projectImage}"></a>
-      <a href=""><img class="first-project" src="${worksArr[3].projectImage}"</a>
+      <div class="first-project"></div>
+      <div class="first-project"></div>
+      <div class="first-project"></div>
+      <div class="first-project"></div>
     </div>
-
-     <p class="WorkText">${worksArr[i].firstText}</p>
-     <p class="WorkText2">${worksArr[i].secondText}</p>
+    </div>
+    <span onclick="function next()"class=""><i class="bi bi-chevron-compact-right"></i></span>
+    <span onclick="function prev()"class=""><i class="bi bi-chevron-compact-left"></i></span>
+     <p class="workText">${worksArr[i].firstText}</p>
+     <p class="workText2">${worksArr[i].secondText}</p>
 
           <ul class="project-tags">
              <li class="work-tag">${worksArr[i].Skills}</li>
@@ -184,24 +185,20 @@ for (let i = 0; i < worksArr.length; i += 1) {
           </button>
           <button type="button" onclick="" class="btn2">
             ${worksArr[i].DemoSource}
+            <img src="images/git-icon.svg" class="icons">
           </button>
          </div>
          <div class="go-to">
-            <a href="" class="previous">${worksArr[i].previousProject}</a>
-            <a href="" class="next">${worksArr[i].nextProject}</a>
+            <span onclick="function prev()"class="previous">${worksArr[i].previousProject}</span>
+            <span onclick="function next()" class="next">${worksArr[i].nextProject}</span>
          </div>
          </div>
 `;
 }
 
 const seeProject = document.querySelectorAll('.btn');
-const exitModal = document.querySelector('.bi-x');
-// seeProject.forEach((btn) => {
-//   btn.addEventListener('click', () => {
-//     document.getElementById('Work-card-popup').style.display = 'block';
-//     console.log('i am clicked!')
-//   });
-// });
+const exitModal = document.querySelector('.x-icon');
+
 document.querySelector('#Projects').addEventListener('click', (e) => {
   const { target } = e;
 
@@ -209,8 +206,8 @@ document.querySelector('#Projects').addEventListener('click', (e) => {
     return;
   }
   document.getElementById('Work-card-popup').style.display = 'block';
-})
+});
+
 exitModal.addEventListener('click', () => {
   document.getElementById('Work-card-popup').style.display = 'none';
 });
-
