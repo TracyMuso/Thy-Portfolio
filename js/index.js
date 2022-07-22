@@ -29,3 +29,14 @@ const fullName = document.getElementById('textn');
 const email = document.getElementById('email');
 const textArea = document.getElementById('add');
 const emailRegex = /^[a-z@.-0-9]*$/;
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+
+  const invalidEmail = document.querySelector('.error-msg');
+
+  if (email.value.match(emailRegex)) {
+    return true;
+  }
+  invalidEmail.textContent = 'Please type the email in lower case!';
+  return false;
+});
