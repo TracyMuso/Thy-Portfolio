@@ -37,11 +37,43 @@ form.addEventListener('submit', (e) => {
   }
   return true;
 });
-//form data storage//
-const names = document.getElementById('textn');
+
+// form data storage//
+
+const fullName = document.getElementById('textn');
 const textArea = document.getElementById('add');
 const formInputs = {
   names: fullName.value,
   email: email.value,
   text: textArea.value,
 };
+
+function storeData() {
+  let getData = localStorage.getItem('formInputs');
+  if (getData) {
+    getData = JSON.parse(getData);
+    fullName.value = getData.names;
+    email.value = getData.email;
+    textArea.value = getData.text;
+  }
+
+  email.addEventListener('input', (e) => {
+    formInputs.email = e.target.value;
+    localStorage.setItem('getData', JSON.stringify(formInputs));
+    sessionStorage.setItem('getData', JSON.stringify(formInputs));
+  });
+
+  fullName.addEventListener('input', (e) => {
+    formInputs.email = e.target.value;
+    localStorage.setItem('getData', JSON.stringify(formInputs));
+    sessionStorage.setItem('getData', JSON.stringify(formInputs));
+  });
+
+  textArea.addEventListener('input', (e) => {
+    formInputs.email = e.target.value;
+    localStorage.setItem('getData', JSON.stringify(formInputs));
+    sessionStorage.setItem('getData', JSON.stringify(formInputs));
+  });
+}
+
+storeData();
