@@ -17,11 +17,9 @@ function toggleMenu() {
 }
 
 hamburger.addEventListener('click', toggleMenu);
-menuItems.forEach(
-  (pageLink) => {
-    pageLink.addEventListener('click', toggleMenu);
-  },
-);
+menuItems.forEach((pageLink) => {
+  pageLink.addEventListener('click', toggleMenu);
+});
 
 // form validation//
 const form = document.getElementById('form');
@@ -48,32 +46,31 @@ const formInputs = {
   text: textArea.value,
 };
 
-function storeData() {
-  let getData = localStorage.getItem('formInputs');
-  if (getData) {
-    getData = JSON.parse(getData);
-    fullName.value = getData.names;
-    email.value = getData.email;
-    textArea.value = getData.text;
-  }
+fullName.addEventListener('input', (e) => {
+  formInputs.names = e.target.value;
+  formInputs.email = email.value;
+  formInputs.text = textArea.value;
+  localStorage.setItem('getData', JSON.stringify(formInputs));
+});
 
-  email.addEventListener('input', (e) => {
-    formInputs.email = e.target.value;
-    localStorage.setItem('getData', JSON.stringify(formInputs));
-    sessionStorage.setItem('getData', JSON.stringify(formInputs));
-  });
+email.addEventListener('input', (e) => {
+  formInputs.names = fullName.value;
+  formInputs.email = e.target.value;
+  formInputs.text = textArea.value;
+  localStorage.setItem('getData', JSON.stringify(formInputs));
+});
 
-  fullName.addEventListener('input', (e) => {
-    formInputs.email = e.target.value;
-    localStorage.setItem('getData', JSON.stringify(formInputs));
-    sessionStorage.setItem('getData', JSON.stringify(formInputs));
-  });
+textArea.addEventListener('input', (e) => {
+  formInputs.names = fullName.value;
+  formInputs.email = email.value;
+  formInputs.text = e.target.value;
+  localStorage.setItem('getData', JSON.stringify(formInputs));
+});
 
-  textArea.addEventListener('input', (e) => {
-    formInputs.email = e.target.value;
-    localStorage.setItem('getData', JSON.stringify(formInputs));
-    sessionStorage.setItem('getData', JSON.stringify(formInputs));
-  });
+let getData = localStorage.getItem('getData');
+if (getData) {
+  getData = JSON.parse(getData);
+  fullName.value = getData.names;
+  email.value = getData.email;
+  textArea.value = getData.text;
 }
-
-storeData();
