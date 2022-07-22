@@ -37,11 +37,33 @@ form.addEventListener('submit', (e) => {
   }
   return true;
 });
+
 //form data storage//
-const names = document.getElementById('textn');
+
+const fullName = document.getElementById('textn')
 const textArea = document.getElementById('add');
 const formInputs = {
   names: fullName.value,
   email: email.value,
-  text: textArea.value,
+  text; textArea.value,
 };
+
+
+
+
+function storeData() {
+  localStorage.setItem('formInputs', JSON.stringify(formInputs));
+  sessionStorage.setItem('formInputs', JSON.stringify(formInputs))
+
+
+storeData()
+
+const getData = localStorage.getItem('formInputs'); 
+if (getData != null) {
+  getData = JSON.parse(getData);
+  fullName.value = getData.names;
+  email.value = getData.email;
+  textArea.value = getData.text
+}
+
+//end of script
