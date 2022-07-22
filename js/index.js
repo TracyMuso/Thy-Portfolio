@@ -37,3 +37,11 @@ form.addEventListener('submit', (e) => {
   }
   return true;
 });
+//form data storage//
+const names = document.getElementById('textn');
+const textArea = document.getElementById('add');
+const formInputs = {
+  names: fullName.value,
+  email: email.value,
+  text: textArea.value,
+};
