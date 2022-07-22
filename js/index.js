@@ -22,3 +22,18 @@ menuItems.forEach(
     pageLink.addEventListener('click', toggleMenu);
   },
 );
+
+// form validation//
+const form = document.getElementById('form');
+const email = document.getElementById('email');
+const emailRegex = /^[a-z@._0-9]*$/;
+const invalidEmail = document.querySelector('.error-msg');
+
+form.addEventListener('submit', (e) => {
+  if (!email.value.match(emailRegex)) {
+    invalidEmail.textContent = 'Please type the email in lower case!';
+    e.preventDefault();
+    return false;
+  }
+  return true;
+});

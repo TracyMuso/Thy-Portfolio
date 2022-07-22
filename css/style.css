@@ -492,6 +492,8 @@ label {
 
 .error-msg {
   display: inline;
+  color: rgb(228, 61, 61);
+  margin: auto;
 }
 
 .button {
