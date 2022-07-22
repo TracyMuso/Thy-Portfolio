@@ -29,19 +29,3 @@ const fullName = document.getElementById('textn');
 const email = document.getElementById('email');
 const textArea = document.getElementById('add');
 const emailRegex = /^[a-z@.-0-9]*$/;
-
-const formInputs = {
-  names: fullName.value,
-  email: email.value,
-  text: textArea.value,
-};
-
-const storeData = localStorage.setItem('formInputs', JSON.stringify(formInputs));
-const temporayStorage = sessionStorage.setItem('formInputs', JSON.stringify(formInputs));
-
-document.addEventListener('DOMContentLoaded', () => {
-  const getData = localStorage.getItem('formInputs'); 
-  if (getData !== null) {
-    let inputParse = JSON.parse(getData);
-  }
-});
