@@ -17,11 +17,9 @@ function toggleMenu() {
 }
 
 hamburger.addEventListener('click', toggleMenu);
-menuItems.forEach(
-  (pageLink) => {
-    pageLink.addEventListener('click', toggleMenu);
-  },
-);
+menuItems.forEach((pageLink) => {
+  pageLink.addEventListener('click', toggleMenu);
+});
 
 // form validation//
 const form = document.getElementById('form');
@@ -37,3 +35,42 @@ form.addEventListener('submit', (e) => {
   }
   return true;
 });
+
+// form data storage//
+
+const fullName = document.getElementById('textn');
+const textArea = document.getElementById('add');
+const formInputs = {
+  names: fullName.value,
+  email: email.value,
+  text: textArea.value,
+};
+
+fullName.addEventListener('input', (e) => {
+  formInputs.names = e.target.value;
+  formInputs.email = email.value;
+  formInputs.text = textArea.value;
+  localStorage.setItem('getData', JSON.stringify(formInputs));
+});
+
+email.addEventListener('input', (e) => {
+  formInputs.names = fullName.value;
+  formInputs.email = e.target.value;
+  formInputs.text = textArea.value;
+  localStorage.setItem('getData', JSON.stringify(formInputs));
+});
+
+textArea.addEventListener('input', (e) => {
+  formInputs.names = fullName.value;
+  formInputs.email = email.value;
+  formInputs.text = e.target.value;
+  localStorage.setItem('getData', JSON.stringify(formInputs));
+});
+
+let getData = localStorage.getItem('getData');
+if (getData) {
+  getData = JSON.parse(getData);
+  fullName.value = getData.names;
+  email.value = getData.email;
+  textArea.value = getData.text;
+}
