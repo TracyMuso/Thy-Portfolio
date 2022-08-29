@@ -1,12 +1,13 @@
 # Thy Portfolio
 
-> This is practice on how to create my professional portfolio
+> This is a skeleton of a professional portfolio. This would best suit a software developer. The main features are the intro section, the skills section, the project section and the contact section. All projects have live demos. Both mobile and desktop version are available.
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
 ## Built With
 
 - HTML & CSS
+- Javascript
 - Github
 
 ## Live Demo 
