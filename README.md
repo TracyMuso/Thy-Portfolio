@@ -4,6 +4,10 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
+<div display="flex" flex-direction="row" gap="150"><img src="https://github.com/elfin-git/Thy-Portfolio/blob/main/images/portfolioUI1.png" width="600" height="500"/>
+<img src="https://github.com/elfin-git/Thy-Portfolio/blob/main/images/portfolioUI2.png" width="300" height="500" margin="50"/>
+</div>
+
 ## Built With
 
 - HTML & CSS
@@ -13,6 +17,23 @@
 ## Live Demo 
 
 https://elfin-git.github.io/Thy-Portfolio/
+## Getting Started
+
+**To get a local copy up and running follow these simple example steps.**
+
+# Prerequisites
+
+- Github flow knowledge. -Intermediate CSS, HTML and Javascript. -Installation of linter files. -install webpack
+
+# Setup 
+- To clone the repository run [https://github.com/elfin-git/Thy-Portfolio] in your terminal
+
+# Usage
+- This can be used as a software developer portfolio.
+
+# Install
+- Set up Github Actions
+- Set up linter > Lighthouse , Webhint ,Stylelint , Eslint.
 
 ## Authors
 
