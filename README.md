@@ -4,8 +4,8 @@
 
 ![](https://img.shields.io/badge/Microverse-blueviolet).
 
-<div display="flex" flex-direction="row" gap="150"><img src="https://github.com/elfin-git/Thy-Portfolio/blob/main/images/portfolioUI1.png" width="600" height="500"/>
-<img src="https://github.com/elfin-git/Thy-Portfolio/blob/main/images/portfolioUI2.png" width="300" height="500" margin="50"/>
+<div display="flex" flex-direction="row" gap="150"><img src="./images/portfolioUI1.png" width="600" height="500"/>
+<img src="./images/portfolioUI2.png" width="300" height="500" margin="50"/>
 </div>
 
 ## Built With
@@ -16,7 +16,8 @@
 
 ## Live Demo 
 
-https://elfin-git.github.io/Thy-Portfolio/
+https://TracyMuso.github.io/Thy-Portfolio/
+
 ## Getting Started
 
 **To get a local copy up and running follow these simple example steps.**
@@ -26,7 +27,7 @@ https://elfin-git.github.io/Thy-Portfolio/
 - Github flow knowledge. -Intermediate CSS, HTML and Javascript. -Installation of linter files. -install webpack
 
 # Setup 
-- To clone the repository run [https://github.com/elfin-git/Thy-Portfolio] in your terminal
+- To clone the repository run [https://github.com/TracyMuso/Thy-Portfolio] in your terminal
 
 # Usage
 - This can be used as a software developer portfolio.
@@ -39,9 +40,9 @@ https://elfin-git.github.io/Thy-Portfolio/
 
 👤 **Tracy Musongole**
 
-- GitHub: [@githubhandle](https://github.com/elfin-git)
+- GitHub: [@githubhandle](https://github.com/TracyMuso)
 - Twitter: [@twitterhandle](https://twitter.com/tracy_muso)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/tracy-musongole)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/tracy-muso/)
 
 ## 🤝 Contributing
 
@@ -56,7 +57,7 @@ Contributions, issues, and feature requests are welcome!
 - Twitter: [@moseshassany](https://twitter.com/moseshassany)
 
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/TracyMuso/Thy-Portfolio/issues).
 
 ## Show your support
 
@@ -70,4 +71,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+This project is [MIT](./LICENSE) licensed.
